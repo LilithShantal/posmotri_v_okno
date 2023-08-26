@@ -217,7 +217,7 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -264,8 +264,8 @@ ol {
 .search-form__checkbox:checked ~ .search-form__pseudo-checkbox::before {
   content: "";
   background-color: #fff;
-  height: 13px;
-  width: 13px;
+  height: 15px;
+  width: 15px;
   margin: 1px auto;
   display: block;
 }
@@ -303,7 +303,7 @@ ol {
 }
 
 .search-form__submit-button {
-  padding: 6px 73px;
+  padding:16px 73px;
 }
 
 .more-button {
